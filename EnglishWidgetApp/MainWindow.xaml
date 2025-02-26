@@ -1,0 +1,12 @@
+﻿<Window x:Class="EnglishWidgetApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="English Widget" Height="200" Width="400"
+        WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False"
+        Background="LightBlue" AllowsTransparency="True">
+    <Grid>
+        <TextBlock Name="EnglishSentence" FontSize="20" FontWeight="Bold"
+                   TextAlignment="Center" VerticalAlignment="Center"
+                   HorizontalAlignment="Center" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
